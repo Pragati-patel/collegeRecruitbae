@@ -1,0 +1,17 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.headText {
+  font-family: 'Mulish';
+  font-size: 40px;
+  font-weight: 700;
+  color: rgba(19, 19, 19, 1);
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 50px
+}

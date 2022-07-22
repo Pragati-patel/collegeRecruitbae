@@ -1,0 +1,60 @@
+.mainContainer {
+  background: linear-gradient(93.38deg, #262626 2.81%, #020202 99.46%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Mulish";
+  line-height: 50px;
+  text-align: center;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.formButton {
+  cursor: pointer;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+  background: #5e48e8;
+  padding: 12px 50px;
+  box-shadow: 0px 4px 8px rgba(94, 72, 232, 0.5);
+  border-radius: 6px;
+  letter-spacing: 0.01em;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-top: 16px;
+}
+
+.textWrapper {
+  position: absolute;
+  top: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 920px) {
+  .mainContainer img {
+    width: 100%;
+  }
+  .textWrapper {
+    top: 20%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 24px;
+  }
+}

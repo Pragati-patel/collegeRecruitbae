@@ -1,0 +1,159 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 39px 0px 0px 0px;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+}
+
+.headText {
+  font-family: "Mulish";
+  font-size: 40px;
+  font-weight: 700;
+  color: rgba(19, 19, 19, 1);
+  margin-left: 10px;
+}
+
+.journeyWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  background-position-x: center;
+  background-position-y: 160px;
+  background-repeat: no-repeat;
+}
+
+.circularIcon1 {
+  height: 161px;
+  width: 140px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-position: center;
+}
+
+.circularIcon2 {
+  height: 161px;
+  width: 140px;
+  margin-top: 136px;
+  display: flex;
+  background-position: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.circularIcon3 {
+  height: 161px;
+  width: 140px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-position: center;
+}
+
+.circularIcon4 {
+  height: 161px;
+  width: 140px;
+  margin-top: 98px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-position: center;
+}
+
+.arrow1 {
+  height: fit-content;
+  margin-top: 58px;
+}
+
+.arrow2 {
+  height: fit-content;
+  margin-top: 77px;
+}
+
+.arrow3 {
+  height: fit-content;
+  margin-top: 79px;
+}
+
+.peopleImg {
+  z-index: -1;
+  position: relative;
+  top: 0;
+}
+
+.iconTexts {
+  align-self: flex-end;
+  font-size: 28px;
+  font-weight: 700;
+  font-family: "Mulish";
+  color: rgba(19, 19, 19, 1);
+}
+.mobileArrow,
+.lastMobileArrow {
+  display: none;
+}
+
+@media screen and (max-width: 920px) {
+  .webArrows {
+    display: none;
+  }
+  .circularIcon2 {
+    margin-top: 0;
+  }
+  .mobileArrow {
+    display: flex;
+    width: 16%;
+    height: 110px;
+  }
+  .lastMobileArrow {
+    display: flex;
+    position: absolute;
+    width: 51%;
+    right: 1rem;
+    top: 4rem;
+  }
+  .journeyWrapper {
+    position: relative;
+    height: 835px;
+    background-position-x: -40px;
+    background-position-y: 551px;
+    background-size: contain;
+  }
+  .circularIcon4 {
+    position: absolute;
+    top: 18rem;
+    margin-right: 3rem;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .mobileArrow {
+    width: 14%;
+  }
+  .circularIcon1,
+  .circularIcon2,
+  .circularIcon3,
+  .circularIcon4 {
+    width: 105px;
+    margin-top: 0;
+  }
+  .circularIcon4 {
+    top: 13rem;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .iconTexts {
+    font-size: 18px;
+  }
+  .journeyWrapper {
+    height: 400px ;
+  }
+}

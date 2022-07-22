@@ -1,0 +1,151 @@
+.MainContainer{
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.TopContainer{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+}
+.RedBall{
+position: relative;
+left: 2%;
+top:12rem;
+}
+.BlueBall{
+position: relative;
+right: 3%;
+}
+.TextContianer{
+    padding-top: 80px;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+}
+.HeadingText{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 140%;
+    padding-left: 15%;
+    padding-right: 15%;
+    /* or 67px */
+    
+    text-align: center;
+    text-transform: capitalize;
+    
+    color: #131313;
+}
+.SubTextinfo{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+    padding-top:4%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom:6% ;
+    text-align: center;
+    letter-spacing: 0.01em;
+    
+    /* grey color */
+    
+    color: #464646;
+    
+    opacity: 0.6;
+}
+
+.GroupImage img{
+    width: 100%;
+}
+
+.FormButton{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+     color:white;
+    background: #5E48E8;
+    padding: 12px 50px;
+    box-shadow: 0px 4px 8px rgba(94, 72, 232, 0.5);
+    border-radius: 6px;
+    letter-spacing: 0.01em;    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+@media screen and (max-width:560px){
+
+    .HeadingText{
+  
+        padding-left: 2%;
+        padding-right: 2%;
+        /* or 67px */;
+      font-style: normal;
+       font-weight: 900;
+font-size: 32px;
+line-height: 140%;
+/* or 45px */
+
+text-align: center;
+text-transform: capitalize;
+
+color: #131313;
+    }
+    .SubTextinfo{
+
+        /* or 27px */
+        padding-top:4%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom:6% ;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 150%;
+        /* or 18px */
+        
+        text-align: center;
+        letter-spacing: 0.01em;
+        
+        /* grey color */
+        
+        color: #464646;
+        
+        opacity: 0.6;
+    }
+    .FormButton{
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+        
+        letter-spacing: 0.01em;
+        
+        color: #FFFFFF;
+        background: #5E48E8;
+box-shadow: 0px 4px 8px rgba(94, 72, 232, 0.5);
+border-radius: 6px;
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+}

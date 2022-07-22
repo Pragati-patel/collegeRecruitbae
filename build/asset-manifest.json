@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.266d0c93.css",
+    "main.js": "/static/js/main.d7ca7a15.js",
+    "static/media/careerTransformationImg.svg": "/static/media/careerTransformationImg.9ea6a8ad1aa931539f2324580e692105.svg",
+    "static/media/GroupPic.png": "/static/media/GroupPic.dc5c71f8fdc175bce7d9.png",
+    "static/media/formPicture.svg": "/static/media/formPicture.fc232101344c190ba94bb888b451f4c3.svg",
+    "static/media/house.webp": "/static/media/house.907a113e44cdb4c1bc6d.webp",
+    "static/media/GreenImage.svg": "/static/media/GreenImage.a21eeae34b928dff425d45eefafe422a.svg",
+    "static/media/complogo.png": "/static/media/complogo.473489cff0f7913f5c6e.png",
+    "static/media/CompanyLogo.png": "/static/media/CompanyLogo.8c6fb4cfcf500967fe69.png",
+    "static/media/splash.svg": "/static/media/splash.3f707610896fc830b4631b02fad148af.svg",
+    "static/media/people.webp": "/static/media/people.3276571f660353a4cee4.webp",
+    "static/media/sourcebaeLogo.svg": "/static/media/sourcebaeLogo.2d52348b6369e5f92b030056fe339713.svg",
+    "static/media/college.svg": "/static/media/college.49b636f14cae55b85df9106c8368be4b.svg",
+    "static/media/interview.svg": "/static/media/interview.424f36fa3be4e80580d04a366754ee97.svg",
+    "static/media/yellowHat.webp": "/static/media/yellowHat.81efbbd2666d49a39be5.webp",
+    "static/media/graduatedPerson.webp": "/static/media/graduatedPerson.ea4ccae8cd0223c36e26.webp",
+    "static/media/assessment.svg": "/static/media/assessment.ed0203a0ac93e3189fd8947db950b1f5.svg",
+    "static/media/avatars.svg": "/static/media/avatars.66a5762fbcc4ba25991ffc39679231ab.svg",
+    "static/media/macbook.webp": "/static/media/macbook.9680461717b8782048b4.webp",
+    "static/media/placement.svg": "/static/media/placement.fc4974426f79edddc7a8574ccf2fe5c7.svg",
+    "static/media/twitter.svg": "/static/media/twitter.9d9b87e4450aa4cf68ab4a5ea295495d.svg",
+    "static/media/leftCandidate.svg": "/static/media/leftCandidate.64af3ab214e686d67b32c465797eb905.svg",
+    "static/media/rightCandidate.svg": "/static/media/rightCandidate.3c2c858f60a12a89435623919245f7c7.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.cf6b1aa4126b6ce1610dff7b48fb42e6.svg",
+    "index.html": "/index.html",
+    "static/media/arrow2.webp": "/static/media/arrow2.12bb277e3df3b516468a.webp",
+    "static/media/arrow1.webp": "/static/media/arrow1.6a6aaf5445f07a187101.webp",
+    "static/media/arrow3.webp": "/static/media/arrow3.95d8a69a4671c579a691.webp",
+    "static/media/rightArrow.webp": "/static/media/rightArrow.de0a7eccc7e28f24d92a.webp",
+    "static/media/tick.webp": "/static/media/tick.ff06e15657a73166ce4d.webp",
+    "main.266d0c93.css.map": "/static/css/main.266d0c93.css.map",
+    "main.d7ca7a15.js.map": "/static/js/main.d7ca7a15.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.266d0c93.css",
+    "static/js/main.d7ca7a15.js"
+  ]
+}

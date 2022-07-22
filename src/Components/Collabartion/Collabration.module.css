@@ -1,0 +1,171 @@
+.MianContainer {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.HeadingSection {
+  display: flex;
+  flex-direction: row;
+}
+
+.ComaImage {
+  position: relative;
+  left: 13%;
+}
+
+.CommaImageOP {
+  position: relative;
+  padding-top: 100px;
+  right: 13%;
+}
+
+.HeadingText {
+  /* font-family: "Mulish"; */
+  /* font-style: normal; */
+  /* font-weight: 700; */
+  /* font-size: 40px; */
+  /* line-height: 150%; */
+  text-align: center;
+  text-transform: capitalize;
+  padding-left: 14%;
+  padding-right: 14%;
+  color: #131313;
+  font: normal 700 40px/150% Mulish;
+}
+
+.SubHeadingCon {
+  padding-top: 100px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #131313;
+  opacity: 0.87;
+}
+
+.cardsWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-inline: 80px;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  font-size: 24px;
+  text-align: center;
+  color: rgba(19, 19, 19, 1);
+  font-weight: 700;
+  font-family: "Mulish";
+  margin-bottom: 40px;
+  opacity: 0.87;
+  text-transform: capitalize;
+}
+
+.topSpacing {
+  margin-top: 70px;
+}
+
+.borderdCardContainer {
+  width: 74%;
+  border: 1px solid #e1e1e1;
+  padding: 24px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.iconStyle {
+  height: 80px;
+}
+
+.rowDiv {
+  display: flex;
+  flex-direction: row;
+  margin-top: 24px;
+  align-items: center;
+}
+
+.tick {
+  height: 24px;
+  width: 24px;
+  margin-right: 32px;
+}
+
+.points {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Mulish";
+  font-style: normal;
+  text-transform: capitalize;
+}
+
+.middleCard {
+  margin-left: 16px;
+}
+
+.blueStrip {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(94, 72, 232, 1);
+  position: absolute;
+  margin-right: 32px;
+  margin-top: 32px;
+  z-index: -1;
+  border-radius: 6px;
+}
+
+.houseImg {
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 920px) {
+  .cardsWrapper {
+    grid-template-columns: none;
+  }
+  .cardContainer {
+    margin-bottom: 6rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .MianContainer {
+    padding-top: 2rem;
+  }
+  .HeadingText {
+    font-size: 20px;
+  }
+  .CommaImageOP {
+    padding-top: 62px;
+    right: 25%;
+  }
+  .height_upper_card_wrapper {
+    display: none;
+  }
+}
+@media screen and (max-width: 680px) {
+  .cardsWrapper {
+    padding-inline: 40px;
+  }
+  .HeadingText {
+    padding: 0;
+  }
+  .ComaImage {
+    left: 1rem;
+  }
+}

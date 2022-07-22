@@ -1,0 +1,46 @@
+.MainContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0px;
+  background-color: #fafafb;
+}
+
+.LogContianer {
+  margin-left: 8%;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  text-transform: capitalize;
+}
+
+.ContectDetail {
+  margin-right: 8%;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 8px;
+  /* identical to box height, or 150% */
+  border: 1px solid #5e48e8;
+  border-radius: 6px;
+  letter-spacing: 0.01em;
+
+  color: #5e48e8;
+  cursor: pointer;
+}
+
+.ContectDetail:active {
+  padding: 9px;
+}
+@media screen and (max-width: 920px) {
+  .LogContianer,
+  .ContectDetail {
+    margin: 0 2rem;
+  }
+}

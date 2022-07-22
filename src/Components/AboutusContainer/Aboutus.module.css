@@ -1,0 +1,87 @@
+.MainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.HeadingText {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: capitalize;
+  color: #131313;
+  padding-top: 30px;
+}
+.CompLogo {
+}
+.SubHeading {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 160%;
+  /* or 38px */
+
+  text-align: center;
+
+  /* textr */
+
+  color: #131313;
+  padding-left: 214px;
+  padding-top: 45px;
+  padding-right: 214px;
+}
+
+.AnotherHeading {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: capitalize;
+  color: #131313;
+  padding-top: 50px;
+}
+
+.ComapnyLogoImage {
+  padding-top: 45px;
+}
+.GreenImage {
+  padding-top: 50px;
+  width: 100%;
+}
+
+.GreenImage img {
+  width: 100%;
+}
+
+@media screen and (max-width: 920px) {
+  .CompLogo {
+    width: 90%;
+  }
+  .CompLogo img {
+    width: 100%;
+  }
+  .SubHeading {
+    padding: 0 4rem;
+  }
+  .ComapnyLogoImage {
+    width: 90%;
+  }
+  .ComapnyLogoImage img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 680px) {
+  .SubHeading {
+    font-size: 12px;
+    margin-top: 1rem;
+  }
+  .HeadingText,
+  .AnotherHeading {
+    font-size: 20px;
+  }
+}
